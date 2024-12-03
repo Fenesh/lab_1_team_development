@@ -1,0 +1,31 @@
+header {
+    background-color: #333; /* Темный фон для хедера */
+    padding: 15px 0; /* Отступы сверху и снизу */
+}
+
+nav {
+    display: flex; /* Используем flexbox для выравнивания элементов */
+    justify-content: center; /* Центрируем навигацию */
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем маргины */
+    display: flex; /* Используем flexbox для горизонтального расположения */
+}
+
+nav ul li {
+    margin: 0 20px; /* Отступы между элементами навигации */
+}
+
+nav ul li a {
+    color: #fff; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Цвет текста при наведении */
+}
